@@ -1,0 +1,1 @@
+This scripts accepts a single arguement from Slic3r and creates a base-64 encoded .3w output file with the correct headers for the DaVinci XYZ 3D printer
