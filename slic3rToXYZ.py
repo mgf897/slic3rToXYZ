@@ -8,7 +8,7 @@ args = parser.parse_args()
 new_filename = args.gcode.split(".")[0] + ".3w"
 new_unencoded_filename = args.gcode.split(".")[0] + "_unencoded.3w"
 
-header_XYZ = "; filename = composition.3w\n; machine = daVinciF10\n; material = default\n; layer_height = 0.2\n; fill_density = 0.10\n; shells = 3\n; speed = 60\n; total_layers = 124\n; total_filament = 2116.02\n; dimension = 51.23:45.21:24.95\n; extruder = 1"
+header_XYZ = "; filename = composition.3w\r\n; machine = daVinciF10\r\n; material = default\r\n; layer_height = 0.2\r\n; fill_density = 0.10\r\n; shells = 3\r\n; speed = 60\r\n; total_layers = 124\r\n; total_filament = 2116.02\r\n; dimension = 51.23:45.21:24.95\r\n; extruder = 1"
 
 encoded_string = ""
 gcode_stripped = ""
